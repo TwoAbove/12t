@@ -1,0 +1,25 @@
+{
+  "name": "12t",
+  "version": "1.0.0",
+  "description": "Seva Maltsev's evaluation",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint ."
+  },
+  "keywords": [
+    "Never",
+    "gonna",
+    "give",
+    "you",
+    "up"
+  ],
+  "author": "Seva Maltsev",
+  "license": "ISC",
+  "dependencies": {
+    "node-redis-pubsub": "^1.0.3",
+    "redis": "^2.8.0",
+    "rsmq": "^0.8.3",
+    "rsmq-worker": "^0.5.2",
+    "yargs": "^10.0.3"
+  }
+}
